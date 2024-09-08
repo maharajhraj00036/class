@@ -1,0 +1,167 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block title %}picture{% endblock %}
+
+{% block content %}
+    {% comment %} <h1>picture will be hear</h1> {% endcomment %}
+    {% comment %} <!-- team profile -->
+    <div class="flex flex-wrap -mx-3 mb-5">
+        <div class="w-full max-w-full px-3 mb-6  mx-auto">
+        <div class="relative flex-[1_auto] flex flex-col break-words min-w-0 bg-clip-border rounded-[.95rem] border border-dashed border-stone-200 bg-white m-5">
+            <!-- card body  -->
+            <div class="flex-auto block py-8 px-9">
+            <div>
+                <div class="mb-9">
+                <h1 class="mb-2 text-[1.75rem] font-semibold text-dark">Our Executive Team</h1>
+                <span class="text-[1.15rem] font-medium text-muted"> Meet our talented team, a dynamic group of experts driven by passion and innovation. </span>
+                </div>
+                <div class="flex flex-wrap w-full">
+                <div class="flex flex-col mr-5 text-center mb-11 lg:mr-16">
+                    <div class="inline-block mb-4 relative shrink-0 rounded-[.95rem]">
+                    <img class="inline-block shrink-0 rounded-[.95rem] w-[150px] h-[150px]"    src='{% static "media/class12.jpg" %}' alt="avarat image">
+                    </div>
+                    <div class="text-center">
+                    <a href="javascript:void(0)" class="text-dark font-semibold hover:text-primary text-[1.25rem] transition-colors duration-200 ease-in-out">Samantha Reynolds</a>
+                    <span class="block font-medium text-muted">Marketing Manager</span>
+                    </div>
+                </div>
+                <div class="flex flex-col mr-5 text-center mb-11 lg:mr-16">
+                    <div class="inline-block mb-4 relative shrink-0 rounded-[.95rem]">
+                    <img class="inline-block shrink-0 rounded-[.95rem] w-[150px] h-[150px]"   src='{% static "media/class121.jpg" %}' alt="avarat image">
+                    </div>
+                    <div class="text-center">
+                    <a href="javascript:void(0)" class="text-dark font-semibold hover:text-primary text-[1.25rem] transition-colors duration-200 ease-in-out">Benjamin Martinez</a>
+                    <span class="block font-medium text-muted">Sales Executive</span>
+                    </div>
+                </div>
+                <div class="flex flex-col mr-5 text-center mb-11 lg:mr-16">
+                    <div class="inline-block mb-4 relative shrink-0 rounded-[.95rem]">
+                    <img class="inline-block shrink-0 rounded-[.95rem] w-[150px] h-[150px]"   src='{% static "media/class122.jpg" %}' alt="avarat image">
+                    </div>
+                    <div class="text-center">
+                    <a href="javascript:void(0)" class="text-dark font-semibold hover:text-primary text-[1.25rem] transition-colors duration-200 ease-in-out">Emily Turner</a>
+                    <span class="block font-medium text-muted">Customer Support</span>
+                    </div>
+                </div>
+                <div class="flex flex-col mr-5 text-center mb-11 lg:mr-16">
+                    <div class="inline-block mb-4 relative shrink-0 rounded-[.95rem]">
+                    <img class="inline-block shrink-0 rounded-[.95rem] w-[150px] h-[150px]"   src='{% static "media/class123.jpg" %}' alt="avarat image">
+                    </div>
+                    <div class="text-center">
+                    <a href="javascript:void(0)" class="text-dark font-semibold hover:text-primary text-[1.25rem] transition-colors duration-200 ease-in-out">Jason Anderson</a>
+                    <span class="block font-medium text-muted">Development Engineer</span>
+                    </div>
+                </div>
+                <div class="flex flex-col mr-5 text-center mb-11 lg:mr-16">
+                    <div class="inline-block mb-4 relative shrink-0 rounded-[.95rem]">
+                    <img class="inline-block shrink-0 rounded-[.95rem] w-[150px] h-[150px]"   src='{% static "media/class124.jpg" %}' alt="avarat image">
+                    </div>
+                    <div class="text-center">
+                    <a href="javascript:void(0)" class="text-dark font-semibold hover:text-primary text-[1.25rem] transition-colors duration-200 ease-in-out">Olivia Carter</a>
+                    <span class="block font-medium text-muted">Creative Director</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap -mx-3 mb-5">
+        <div class="w-full max-w-full sm:w-3/4 mx-auto text-center">
+        <p class="text-sm text-slate-500 py-1"> Tailwind CSS Component from <a href="https://www.loopple.com/theme/riva-dashboard-tailwind?ref=tailwindcomponents" class="text-slate-700 hover:text-slate-900" target="_blank">Riva Dashboard</a> by <a href="https://www.loopple.com" class="text-slate-700 hover:text-slate-900" target="_blank">Loopple Builder</a>. </p>
+        </div>
+    </div> {% endcomment %}
+
+    {% comment %} use bleow for img {% endcomment %}
+<div class="min-h-screen bg-yellow-400 flex justify-center items-center py-20">
+    <div class="container mx-auto p-12 bg-gray-100 rounded-xl">
+      <h1 class="text-4xl uppercase font-bold from-current mb-8">Responsive dynamic cards</h1>
+      <!-- Box-1 -->
+      <div class="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 space-y-4 sm:space-y-0">
+        <div class="bg-white">
+          <div>
+            <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
+              <div>
+                <img class="w-full" src="{% static "media/class12.jpg" %}" />
+                <div class="px-4 py-2">
+                  <h1 class="text-xl font-gray-700 font-bold">Papież gigant</h1>
+                  <div class="flex space-x-2 mt-2">
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </span>
+                    <h3 class="text-lg text-gray-600 font-semibold mb-2">New York</h3>
+                  </div>
+                  <p class="text-sm tracking-normal">Częstochowski pomnik Jana Pawła II wyjątkowo interesująco wpisuje się w poprzemysłowy krajobraz tego miasta o mocnych lewicowych, robotniczych i socjalistycznych tradycjach. Powstały w 2013 roku, uchodzi za najwyższego Karola Wojtyłę w Polsce.</p>
+                  <button class="mt-12 w-full text-center bg-yellow-400 py-2 rounded-lg">Read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Box-2 -->
+        <div class="bg-white">
+          <div>
+            <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
+              <div>
+                <img class="w-full" src="{% static "media/class121.jpg" %}" />
+                <div class="px-4 py-2">
+                  <h1 class="text-xl font-gray-700 font-bold">Papież gigant</h1>
+                  <div class="flex space-x-2 mt-2">
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </span>
+                    <h3 class="text-lg text-gray-600 font-semibold mb-2">New York</h3>
+                  </div>
+                  <p class="text-sm tracking-normal">Częstochowski pomnik Jana Pawła II wyjątkowo interesująco wpisuje się w poprzemysłowy krajobraz tego miasta o mocnych lewicowych, robotniczych i socjalistycznych tradycjach. Powstały w 2013 roku, uchodzi za najwyższego Karola Wojtyłę w Polsce.</p>
+                  <button class="mt-12 w-full text-center bg-yellow-400 py-2 rounded-lg">Read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Box-3 -->
+        <div class="bg-white">
+          <div>
+            <div class="shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-105">
+              <div>
+                <img class="w-full" src="{% static "media/class122.jpg" %}" />
+                <div class="px-4 py-2">
+                  <h1 class="text-xl font-gray-700 font-bold">Papież gigant</h1>
+                  <div class="flex space-x-2 mt-2">
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </span>
+                    <h3 class="text-lg text-gray-600 font-semibold mb-2">New York</h3>
+                  </div>
+                  <p class="text-sm tracking-normal">Częstochowski pomnik Jana Pawła II wyjątkowo interesująco wpisuje się w poprzemysłowy krajobraz tego miasta o mocnych lewicowych, robotniczych i socjalistycznych tradycjach. Powstały w 2013 roku, uchodzi za najwyższego Karola Wojtyłę w Polsce.</p>
+                  <button class="mt-12 w-full text-center bg-yellow-400 py-2 rounded-lg">Read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+  
+    <a href="{% url "home" %}"  rel="noopener noreferrer">move to home</a>
+    <img src="{% static "media/class12.jpg" %}" alt="noimgfound" srcset="">
+    <img src="{% static "media/class121.jpg" %}" alt="noimgfound" srcset="">
+    <img src="{% static "media/class122.jpg" %}" alt="noimgfound" srcset="">
+    <img src="{% static "media/class123.jpg" %}" alt="noimgfound" srcset="">
+
+
+
+{% endblock %}
